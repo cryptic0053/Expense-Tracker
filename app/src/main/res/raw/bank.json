@@ -1,0 +1,34 @@
+{
+  "banks": [
+    {
+      "name": "Sonali Bank Limited",
+      "location": "27 Sir Iqbal Road, Khulna",
+      "contact": "+880 41-723642"
+    },
+    {
+      "name": "Agrani Bank Limited",
+      "location": "35 KDA Avenue, Khulna",
+      "contact": "+880 41-723103"
+    },
+    {
+      "name": "Janata Bank Limited",
+      "location": "71 M A Bari Road, Khulna",
+      "contact": "+880 41-731678"
+    },
+    {
+      "name": "Rupali Bank Limited",
+      "location": "Moylapota, Khulna",
+      "contact": "+880 41-730042"
+    },
+    {
+      "name": "Dutch-Bangla Bank Limited",
+      "location": "3. KDA Avenue, Khulna",
+      "contact": "+880 41-2830503"
+    },
+    {
+      "name": "BRAC Bank Limited",
+      "location": "Khulna Service Point, 30 KDA Avenue, Khulna",
+      "contact": "+880 1950-500799"
+    }
+  ]
+}
