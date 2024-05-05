@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
     private ProgressDialog mProgressDialog;
+    private static FirebaseAuth firebaseAuthInstance;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +42,13 @@ public class MainActivity extends AppCompatActivity {
         }
 
         initUI();
+    }
+    // Singleton getInstance method
+    private synchronized FirebaseAuth getFirebaseAuthInstance() {
+        if (firebaseAuthInstance == null) {
+            firebaseAuthInstance = FirebaseAuth.getInstance();
+        }
+        return firebaseAuthInstance;
     }
 
     private void initUI() {
